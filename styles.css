@@ -9,5 +9,5 @@
 
 
 body{
-  background-image: "rr.jpg";
+  background-image: url("rr.jpg");
 }
