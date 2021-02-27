@@ -51,10 +51,10 @@
 </head>
 
 <body>
-  <p class="calc-text"></p>
+  <p id = "demo"class="calc-text"></p>
     <a href="#">clear</a>
     <a class = "backspace"href="#">⌫</a><br>
-    <a href="#">7</a>
+    <a onclick="change_text()" href="#">7</a>
     <a href="#">8</a>
     <a href="#">9</a>
     <a href="#">÷&nbsp;</a><br>
@@ -74,3 +74,8 @@
   <script src="js/scripts.js"></script>
 </body>
 </html>
+<script>
+function change_text(){
+    document.getElementById("demo").innerHTML = "7";
+}
+</script>
