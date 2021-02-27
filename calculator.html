@@ -66,8 +66,8 @@
     <a onclick= "add2()" href="#">2</a>
     <a onclick= "add3()" href="#">3</a>
     <a href="#">−&nbsp;</a><br>
-    <a href="#">0</a>
-    <a href="#">00</a>
+    <a onclick= "add0()" href="#">0</a>
+    <a onclick= "add00()" href="#">00</a>
       <a href="#">.</a>
     <a href="#">+</a><br>
     <a class = "equal" href="#">=</a>
@@ -101,5 +101,11 @@ function add2(){
   }
 function add3(){
     document.getElementById("numberwindow").innerHTML += "3";
+}
+function add0(){
+    document.getElementById("numberwindow").innerHTML += "0";
+}
+function add00(){
+    document.getElementById("numberwindow").innerHTML += "00";
 }
 </script>
