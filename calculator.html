@@ -55,16 +55,16 @@
     <a href="#">clear</a>
     <a class = "backspace"href="#">⌫</a><br>
     <a onclick= "add7()" href="#">7</a>
-    <a href="#">8</a>
-    <a href="#">9</a>
+    <a onclick= "add8()" href="#">8</a>
+    <a onclick= "add9()" href="#">9</a>
     <a href="#">÷&nbsp;</a><br>
-    <a href="#">4</a>
-    <a href="#">5</a>
-    <a href="#">6</a>
+    <a onclick= "add4()" href="#">4</a>
+    <a onclick= "add5()" href="#">5</a>
+    <a onclick= "add6()" href="#">6</a>
     <a href="#">×&nbsp;</a><br>
-    <a href="#">1</a>
-    <a href="#">2</a>
-    <a href="#">3</a>
+    <a onclick= "add1()" href="#">1</a>
+    <a onclick= "add2()" href="#">2</a>
+    <a onclick= "add3()" href="#">3</a>
     <a href="#">−&nbsp;</a><br>
     <a href="#">0</a>
     <a href="#">00</a>
@@ -77,5 +77,21 @@
 <script>
 function add7(){
     document.getElementById("numberwindow").innerHTML += "7";
+function add8(){
+    document.getElementById("numberwindow").innerHTML += "8";
+function add9(){
+    document.getElementById("numberwindow").innerHTML += "9";
+function add4(){
+    document.getElementById("numberwindow").innerHTML += "4";
+function add5(){
+    document.getElementById("numberwindow").innerHTML += "5";
+function add6(){
+    document.getElementById("numberwindow").innerHTML += "6";
+function add1(){
+    document.getElementById("numberwindow").innerHTML += "1";
+function add2(){
+    document.getElementById("numberwindow").innerHTML += "2";
+function add3(){
+    document.getElementById("numberwindow").innerHTML += "3";
 }
 </script>
