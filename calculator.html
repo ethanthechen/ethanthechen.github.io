@@ -53,7 +53,7 @@
 <body>
   <p id = "numberwindow"class="calc-text"></p>
     <a onclick= "clearwindow()" href="#">clear</a>
-    <a class = "backspace"href="#">⌫</a><br>
+    <a onclick= "backspace()" class = "backspace"href="#">⌫</a><br>
     <a onclick= "add7()" href="#">7</a>
     <a onclick= "add8()" href="#">8</a>
     <a onclick= "add9()" href="#">9</a>
@@ -111,7 +111,7 @@ function add00(){
 function clearwindow(){
     document.getElementById("numberwindow").innerHTML = "";
 }
-function slice(){
+function backspace(){
     document.getElementById("numberwindow").innerHTML = document.getElementById("numberwindow").innerHTML.slice(0,-1);
 }
 </script>
