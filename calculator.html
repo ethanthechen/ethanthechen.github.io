@@ -52,7 +52,7 @@
 
 <body>
   <p id = "numberwindow"class="calc-text"></p>
-    <a onclick= "clear()" href="#">clear</a>
+    <a onclick= "clearwindow()" href="#">clear</a>
     <a class = "backspace"href="#">⌫</a><br>
     <a onclick= "add7()" href="#">7</a>
     <a onclick= "add8()" href="#">8</a>
@@ -108,7 +108,7 @@ function add0(){
 function add00(){
     document.getElementById("numberwindow").innerHTML += "00";
 }
-function clear(){
+function clearwindow(){
     document.getElementById("numberwindow").innerHTML = "";
 }
 </script>
