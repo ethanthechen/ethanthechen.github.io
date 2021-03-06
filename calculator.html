@@ -51,6 +51,7 @@
 </head>
 
 <body>
+  <p id = "numberwindow2"class="calc-text"></p>
   <p id = "numberwindow"class="calc-text"></p>
     <a onclick= "clearwindow()" href="#">clear</a>
     <a onclick= "backspace()" class = "backspace"href="#">⌫</a><br>
@@ -75,6 +76,11 @@
 </html>
 <script>
 var len = 0;
+var operator = "";
+function addition(){
+    document.getElementById("numberwindow2").innerHTML = document.getElementById("numberwindow").innerHTML;
+    document.getElementById("numberwindow").innerHTML = "";
+  }
 function add7(){
     document.getElementById("numberwindow").innerHTML += "7";
   }
